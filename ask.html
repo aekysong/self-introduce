@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .top {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+
+    #askform {
+      padding: 30px;
+      margin: auto;
+      text-align:center;
+    }
+
+    #askform input[type=text] {
+      width: 50%;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      margin-bottom: 12px;
+    }
+
+    #askform textarea {
+      width: 50%;
+      padding: 10px;
+      height: 300px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none;
+      margin-bottom: 20px;
+    }
+
+    #askform input[type=submit] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      font-size: 120%;
+      margin-bottom: 50px;
+    }
+  </style>
+  <title>About Cats</title>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <h2><a href="index.html">ABOUT CATS</a></h2>
+      <ul>
+        <li><a href="history.html">역사</a></li>
+        <li><a href="breed.html">종류</a></li>
+        <li><a href="character.html">캐릭터</a></li>
+        <li><a href="ask.html">문의하기</a></li>
+      </ul>
+    </div>
+  </header>
+  <section>
+    <div class="top">
+      <h1>문의하기</h1>
+      <p>문의하실 내용이 있으신가요? 아래의 폼을 작성한 후 '제출' 버튼을 눌러주세요. </p>
+    </div>
+
+    <div id="askform">
+      <form action="#" method="post">
+        <h2>이름</h2>
+        <input type="text" name="name">
+        <h2>문의사항</h2>
+        <textarea name="comment" rows="5" cols="50"></textarea><br>
+        <input type="submit" value="제출"/>
+      </form>
+    </div>
+
+
+
+  </section>
+  <footer> Web Programming Assignment 1
+    <br>Copyright (c) 2019 Yaekyoon Song</footer>
+</body>
+
+</html>
